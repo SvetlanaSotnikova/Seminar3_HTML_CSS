@@ -1,0 +1,117 @@
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+    * {
+        margin : 0;
+        padding: 0;
+    }
+
+    body {
+        font-family     : "Inter", sans-serif;
+        background-color: #fff;
+        max-width       : 1200px;
+        margin          : 0 auto;
+        padding         : 0 20px;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .home {
+        height        : 700px;
+        display       : flex;
+        flex-direction: column;
+    }
+
+    .header {
+        display           : flex;
+        justify-content   : space-between;
+        align-items       : center;
+        /* padding        : 10px 20px; */
+        height            : 100px;
+        margin-top        : 40px;
+    }
+
+    .menu {
+        /* width: calc(100% - 700px); Оставшаяся ширина для меню (500px + промежуток 200px) */
+        text-align: right;
+        display   : flex;
+        /* gap    :  30px; */
+    }
+
+    .menu__link {
+        color      : black;
+        font-style : normal;
+        font-weight: 500;
+        margin-left: 30px;
+
+    }
+
+    .home_link {
+        color: #F25822;
+    }
+
+    .logo img {
+        /* padding: 40px 0; */
+        width    : auto;
+        max-width: 100%;
+        height   : auto;
+    }
+
+    .main_home_content {
+        margin-top: 84px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .text_block {
+        flex: 1;
+        margin-right: 41px; 
+    }
+
+    .title_home_text {
+        color      : black;
+        font-style : normal;
+        font-weight: 800;
+        font-size  : 60px;
+    }
+
+    .p_home_text {
+        color     : #888888;
+        font-style: normal;
+        font-size : 20px;
+        margin-top: 17px;
+    }
+
+    .btn {
+        border     : none;
+        padding    : 15px 35px;
+        font-style : normal;
+        font-weight: bold;
+        margin-top : 37px;
+
+    }
+
+    .start_now {
+        background-color: #F25822;
+        border-radius   : 30px;
+        color           : #fff;
+    }
+
+    .watch_vd {
+        color           : #AAAAAA;
+        background-color: #fff;
+    }
+
+    .home_main_page {
+        max-width: 100%;
+        padding: auto;
+    }
+
+    .home_img {
+        height         : 243px;
+        display        : flex;
+        justify-content: space-between;
+        align-items    : center;
+    }
