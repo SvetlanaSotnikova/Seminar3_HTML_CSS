@@ -25,6 +25,7 @@
     .home {
         display: flex;
         flex-direction: column;
+        flex-wrap: wrap;
     }
 
     .header {
@@ -86,7 +87,9 @@
         display: flex;
         gap: 41px;
         align-content: center;
-        /* margin-left: 373px; */
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: row;
 
     }
 
@@ -149,13 +152,17 @@
         flex-wrap: wrap;
         /* place-content: center; */
         /* position: relative; */
-        align-items: center;
-        /* max-height: 243px; */
-        height: 243px;
-        align-content: center;
+        
     }
 
     .home_img img {
         position: relative;
+    }
+
+    .home_footer {
+        display: flex;
+        align-items: center;
+        align-content: center;
+        height: 243px;
     }
 
