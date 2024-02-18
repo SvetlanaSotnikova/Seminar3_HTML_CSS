@@ -348,6 +348,7 @@ a {
     position  : absolute;
     width: 100%;
     height: 100%;
+    /* background: #132035; */
     background   : linear-gradient(rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05));
     z-index   : -1;
 }
@@ -416,10 +417,16 @@ a {
     display  : flex;
     gap      : 24px;
     flex-wrap: nowrap;
+    
 }
 
-.social_img:hover {
+.social_img img{
+    transition: transform 0.1s ease;
+}
+
+.social_img img:hover {
     cursor: pointer;
+    transform: scale(1.15);
 }
 
 .information {
