@@ -18,7 +18,10 @@ body {
 a {
     text-decoration: none;
 }
-
+html {
+    scroll-behavior: smooth;
+  }
+  
 .header {
     /* position: absolute; */
     display        : flex;
@@ -66,7 +69,7 @@ a {
     font-style : normal;
     font-weight: 800;
     margin-top : 10px;
-    max-width  : 636px;
+    /* max-width  : 636px; */
     line-height: 130%;
 }
 
